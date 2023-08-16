@@ -1,0 +1,225 @@
+@media only screen and (max-width: 600px) {
+   .info{
+    overflow: auto;
+   }
+  }
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    border: none;
+   outline: none;
+   overflow: hidden;
+    text-decoration: none;
+    font-style: normal;
+}/* Reset All Tag*/
+html{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 62.5%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+    background-color: #D6DCEC;
+}
+.computer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    width: 500px;
+    height: 500px;
+    min-height: 500px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    opacity: 0.9;
+    background-color: #ebeaeabb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.img{
+    width: 100%;
+    height: 140px;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-okay{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-info{
+    width: 80%;
+    height: 54%;
+    min-height: 54%;
+    overflow-y: scroll;
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 1px solid #00000041;
+}
+span{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+.buttons{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: #0032A0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+a:hover{
+    opacity: 0.8;
+}
+p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.next-form{
+    width: 500px;
+    height: 500px;
+    display: none;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    opacity: 0.9;
+    background-color: #ebeaeabb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.img-next{
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-next{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+form{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpf{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    background-color: #dfdfdfd2;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.cpfemail{
+    min-width: 96%;
+    height: 100%;
+    margin: 10px;
+    background-color: #dfdfdfd2;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.sexy{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.radio{
+    min-width: 29px;
+    height: 10px;
+    background-color: #dfdfdfd2;
+}
+.buttonsl{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-tilte{
+    margin-top: 20px;
+}
