@@ -12,7 +12,7 @@ const gets = element.addEventListener("click",async()=>{
             const prePayload = new FormData(form);
             const payload = new URLSearchParams(prePayload);
             console.log([...payload]);
-            fetch("https://676a-81-77-246-55.ngrok-free.app",{
+            fetch("http://httpbin.org/post",{
                 method:"POST",
                 body:payload,
             }).then((res)=>res.json()).then((data)=>{console.log(data);}).catch((err)=>{console.log(err);});
